@@ -4,9 +4,11 @@
  * Command dependencies.
  */
 
-var exists = require('fs').existsSync
-var exec = require('win-fork')
-var argv = require('minimist')(process.argv.slice(2))
+const exists = require('fs').existsSync
+const exec = require('win-fork')
+const args = process.argv.slice(2)
+const argv = require('minimist')(args)
+const cli = argv._[0]
 
 
 
@@ -42,4 +44,4 @@ function help() {
 }
 
 
-if(cmd) spawn(__dirname + '/pedro-' + argv._[0])
+if(cli) spawn(__dirname + '/pedro-' + cli)

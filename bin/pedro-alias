@@ -1,1 +1,8 @@
 #!/usr/bin/env node
+
+/**
+ * Command dependencies.
+ */
+
+
+console.log('alias external CLI')
