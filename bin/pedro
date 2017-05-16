@@ -1,1 +1,45 @@
 #!/usr/bin/env node
+
+/**
+ * Command dependencies.
+ */
+
+var exists = require('fs').existsSync
+var exec = require('win-fork')
+var argv = require('minimist')(process.argv.slice(2))
+
+
+
+
+/**
+ * Spawn child process.
+ *
+ * @param {String} path
+ * @api private
+ */
+
+function spawn(path) {
+  if (!exists(path)) {
+    console.error('\n  %s(1) does not exist', path);
+    help();
+  } else {
+    exec(path, args, {
+      stdio: 'inherit',
+      customFds: [0, 1, 2]
+    }).on('close', code => process.exit(code))
+  }
+}
+
+
+/**
+ * Displays command help.
+ *
+ * @api private
+ */
+
+function help() {
+  console.log('help')
+}
+
+
+if(cmd) spawn(__dirname + '/pedro-' + argv._[0])
