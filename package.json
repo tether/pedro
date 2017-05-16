@@ -6,6 +6,10 @@
   "scripts": {
     "test": "tape test/*.js"
   },
+  "bin": {
+    "pedro": "bin/pedro",
+    "pedro-alias": "bin/pedro-alias"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PetroFeed/pedro.git"
