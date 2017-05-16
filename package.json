@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/PetroFeed/pedro/issues"
   },
-  "homepage": "https://github.com/PetroFeed/pedro#readme"
+  "homepage": "https://github.com/PetroFeed/pedro#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "win-fork": "^1.1.1"
+  }
 }
