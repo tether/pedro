@@ -1,0 +1,24 @@
+{
+  "name": "pedro",
+  "version": "1.0.0",
+  "description": "A CLI smarter than you are",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetroFeed/pedro.git"
+  },
+  "keywords": [
+    "cli",
+    "extensible",
+    "scaffold"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PetroFeed/pedro/issues"
+  },
+  "homepage": "https://github.com/PetroFeed/pedro#readme"
+}
