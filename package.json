@@ -8,6 +8,7 @@
   },
   "bin": {
     "pedro": "bin/pedro",
+    "pedro-install": "bin/pedro-install",
     "pedro-alias": "bin/pedro-alias"
   },
   "repository": {
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/PetroFeed/pedro#readme",
   "dependencies": {
-    "minimist": "^1.2.0",
-    "win-fork": "^1.1.1"
+    "cross-spawn": "^5.1.0",
+    "minimist": "^1.2.0"
   }
 }
