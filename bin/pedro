@@ -4,7 +4,11 @@
  * Command dependencies.
  */
 
-const exists = require('fs').existsSync
+const fs = require('fs')
+const exists = fs.existsSync
+const stat = fs.statSync
+const path = require('path')
+const resolve = path.resolve
 const exec = require('win-fork')
 const args = process.argv.slice(2)
 const argv = require('minimist')(args)
@@ -16,31 +20,21 @@ const cli = argv._[0]
 /**
  * Spawn child process.
  *
- * @param {String} path
+ * @param {String} cmd
  * @api private
  */
 
-function spawn(path) {
-  if (!exists(path)) {
-    console.error('\n  %s(1) does not exist', path);
-    help();
-  } else {
-    exec(path, args, {
-      stdio: 'inherit',
-      customFds: [0, 1, 2]
-    }).on('close', code => process.exit(code))
+function spawn(cmd) {
+  if (!exists(cmd)) {
+    cmd = process.env.PATH.split(path.delimiter).reduce((binary, p) => {
+      p = resolve(p, path.basename(cmd))
+      return exists(p) && stat(p).isFile() ? p : binary
+    }, cmd)
   }
-}
-
-
-/**
- * Displays command help.
- *
- * @api private
- */
-
-function help() {
-  console.log('help')
+  exec(cmd, args, {
+    stdio: 'inherit',
+    customFds: [0, 1, 2]
+  }).on('close', code => process.exit(code))
 }
 
 
