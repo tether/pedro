@@ -6,7 +6,7 @@
 
 Pedro is a command line utility you can extend with plugins.
 * **Built-in plugin manager**: Use the power of the npm ecosystem to search and install as many plugins as you want.
-* **Aliases**: Pedro allows you to easily install and add any command line, even the one that haven't been created for Pedro.
+<!-- * **Aliases**: Pedro allows you to easily install and add any command line, even the one that haven't been created for Pedro. -->
 
 ## Usage
 
