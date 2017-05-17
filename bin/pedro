@@ -24,7 +24,7 @@ const cli = argv._[0]
  * @api private
  */
 
-function spawn(cmd) {
+function spawn (cmd) {
   if (!exists(cmd)) {
     cmd = process.env.PATH.split(path.delimiter).reduce((binary, p) => {
       p = resolve(p, path.basename(cmd))
