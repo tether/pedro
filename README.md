@@ -39,7 +39,7 @@ npm install pedro --save
 ## Question
 
 For support, bug reports and or feature requests please make sure to read our
-<a href="https://github.com/tether/contribution-guide" target="_blank">community guideline</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
+<a href="https://github.com/tether/contribution-guide" target="_blank">community guidelines</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
 
 ## Contribution
 
