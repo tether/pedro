@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/pedro.svg)](https://www.npmjs.com/package/pedro)
 [![Downloads](https://img.shields.io/npm/dm/pedro.svg)](http://npm-stat.com/charts.html?package=pedro)
-[![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/petrofeed/contribution/blob/master/community.md)
+[![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
 Pedro is a command line utility you can extend with plugins.
 * **Built-in plugin manager**: Use the power of the npm ecosystem to search and install as many plugins as you want.
@@ -10,7 +10,7 @@ Pedro is a command line utility you can extend with plugins.
 
 ## Usage
 
-A plugin is a separate command line which name should start by `pedro-`. Here's an example how to install the [pedro-tether](https://github.com/PetroFeed/pedro-tether) plugin:
+A plugin is a separate command line which name should start by `pedro-`. Here's an example how to install the [pedro-tether](https://github.com/tether/pedro-tether) plugin:
 
 ```shell
 # install pedro-tether plugin
@@ -39,11 +39,11 @@ npm install pedro --save
 ## Question
 
 For support, bug reports and or feature requests please make sure to read our
-<a href="https://github.com/petrofeed/contribution" target="_blank">community guideline</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
+<a href="https://github.com/tether/contribution-guide" target="_blank">community guideline</a> and use the issue list of this repo and make sure it's not present yet in our reporting checklist.
 
 ## Contribution
 
-The open source community is very important to us. If you want to participate please make sure to read our <a href="https://github.com/petrofeed/contribution" target="_blank">guideline</a> before making a pull request. If you have any related project, adapter or other let everyone know in our wiki.
+The open source community is very important to us. If you want to participate to this repository, please make sure to read our <a href="https://github.com/tether/contribution-guide" target="_blank">guideline</a> before making any pull request. If you have any related project, please let everyone know in our wiki.
 
 ## License
 
