@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PetroFeed/pedro.git"
+    "url": "git+https://github.com/tether/pedro.git"
   },
   "keywords": [
     "cli",
@@ -23,9 +23,9 @@
   "author": "Olivier Wietrich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PetroFeed/pedro/issues"
+    "url": "https://github.com/tether/pedro/issues"
   },
-  "homepage": "https://github.com/PetroFeed/pedro#readme",
+  "homepage": "https://github.com/tether/pedro#readme",
   "dependencies": {
     "cross-spawn": "^5.1.0",
     "minimist": "^1.2.0"
