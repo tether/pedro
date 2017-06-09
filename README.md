@@ -11,7 +11,7 @@ Pedro is a command line utility you can extend with plugins.
 
 ## Usage
 
-A plugin is a separate command line which name starts with `pedro-`. Plugins are node packages can be downloaded from the npm registry as following:
+A plugin is a separate command line which name starts with `pedro-`. Plugins are node packages that can be downloaded from the npm registry as following:
 
 
 ```shell
