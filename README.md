@@ -11,14 +11,15 @@ Pedro is a command line utility you can extend with plugins.
 
 ## Usage
 
-A plugin is a separate command line which name should start by `pedro-`. Here's an example how to install the [pedro-tether](https://github.com/tether/pedro-tether) plugin:
+A plugin is a separate command line which name starts with `pedro-`. Plugins are node packages can be downloaded from the npm registry as following:
+
 
 ```shell
-# install pedro-tether plugin
-$ pedro install pedro-tether
+# install pedro-helloworld plugin
+$ pedro install pedro-helloworld
 
-# use pedro-tether from pedro
-$ pedro tether
+# use pedro-helloworld from pedro
+$ pedro helloworld
 ```
 
 Plugins can also be installed using npm with the following syntax:
