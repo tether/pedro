@@ -4,9 +4,10 @@
 [![Downloads](https://img.shields.io/npm/dm/pedro.svg)](http://npm-stat.com/charts.html?package=pedro)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
-Pedro is a command line utility you can extend with plugins.
+Pedro is a command line utility you can extend with plugins. 
 * **Built-in plugin manager**: Use the power of the npm ecosystem to search and install as many plugins as you want.
-<!-- * **Aliases**: Pedro allows you to easily install and add any command line, even the one that haven't been created for Pedro. -->
+* **Aliases**: Centralize all your favourite tools into one command line. 
+
 
 ## Usage
 
